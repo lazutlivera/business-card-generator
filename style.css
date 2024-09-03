@@ -1,0 +1,64 @@
+body {
+  background-image:url(city.webp);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  font-family:monospace;
+  background-color: rgb(221, 219, 219);
+  color: aliceblue;
+  margin: 0;
+  padding: 10px;
+}
+
+.frame {
+  width: 400px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 10px;
+  background-color: rgb(172, 126, 126);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  box-shadow: 10px 10px 5px 5px grey;
+}
+
+input {
+
+    border-radius: 10px;
+    width:200px ;
+    height: fit-content;
+    
+}
+
+h1 {
+    font-size: large;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+button {
+  display: block;
+  margin-top: 10px;
+}
+.error {
+  margin: 0;
+  padding: 0;
+}
+
+.invalid {
+  background-color: rgb(195, 3, 3);
+}

@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+.business-card, .business-card-alt {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px;
+}
+
+.business-card h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.business-card p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 1em;
+}
+
+.business-card-alt {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+}
+
+.business-card-alt .card-header {
+    background-color: #444;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.business-card-alt .card-body {
+    padding: 10px;
+}
+
+.business-card-alt h2 {
+    color: #fff;
+    font-size: 1.4em;
+}
+
+.business-card-alt p {
+    margin: 8px 0;
+    color: #ccc;
+    font-size: 0.9em;
+}
